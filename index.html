@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Главная</a>
+            <a href="#">О нас</a>
+            <a href="#avito">Авито</a>
+            <a href="#price">Цены</a>
+            <a href="#galaree">Галерея</a>
+            <a href="#">+7(927)192-32-30</a>
+        </div>
+      </div>
+      <span class="wrapper-menu"><h1 class="logo-txt-menu">Sova Motors</h1><img src="img/free-icon-menu-bar-10024467.png" alt="" class="burger-menu" onclick="openNav()"></span>
+    <nav>
+        <div class="logo">
+            <h1 class="logo-txt">Sova Motors</h1>
+        </div>
+        <ul>
+            <li><a href="index.html" class="link left">Главная</a></li>
+            <li><a href="#" class="link left">О нас</a></li>
+            <li><a href="#avito" class="link left">Авито</a></li>
+            <li><a href="#price" class="link left">Цены</a></li>
+            <li><a href="#galaree" class="link left">Галерея</a></li>
+            <li><a href="#" class="link left">+7(927)192-32-30</a></li>
+        </ul>
+    </nav>
+    <!--Frame-->
+    <div class="inter-frame">
+        <h1 class="inter-h1">Мы ремонтируем двигатели</h1>
+        <p class="inter-p">Мы сосредоточены на качественном обслуживании и ремонте ДВС.
+            Наши опытные специалисты обеспечат вашему автомобилю профессиональный подход и внимательное отношение.
+            Для выполнения всех видов работ по ремонту ДВС мы используем только высококачественные запчасти и современное оборудование.
+            Независимо от сложности неисправностей, мы гарантируем быстрое и надежное восстановление работы вашего двигателя. 
+            Доверьте нам свой автомобиль, и мы сделаем все возможное, чтобы он снова работал как новый.</p>
+        <button class="btn-frame">Услуги</button>
+    </div>
+    <main>
+        <!--Services-->
+        <div class="services">
+            <div class="service" id="services">
+                <h1 class="services-h1" id="avito">Преимущества</h1>
+                <div class="row-con">
+                    <div class="col-con">
+                        <img src="img/free-icon-pc-4703487.png" alt="" class="ico">
+                        <h2 class="ico-txt-h2">Компьютерная <br> диагностика</h2>
+                        <p></p>
+                    </div>
+                    <div class="hr-1">
+    
+                    </div>
+                    <div class="col-con">
+                        <img src="img/free-icon-car-engine-2061866.png" alt="" class="ico">
+                        <h2 class="ico-txt-h2">Комплексная <br> диагностика</h2>
+                        <p></p>
+                    </div>
+                    <div class="hr-2">
+    
+                    </div>
+                    <div class="col-con">
+                        <img src="img/free-icon-time-3777745.png" alt="" class="ico">
+                        <h2 class="ico-txt-h2">За короткий  <br> срок</h2>
+                        <p></p>
+                    </div>
+                    <div class="hr-3">
+    
+                    </div>
+                    <div class="col-con">
+                        <img src="img/free-icon-high-quality-5733219.png" alt="" class="ico">
+                        <h2 class="ico-txt-h2">Наивысшее <br> качество</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="avito">
+            <h1 class="h1-avito">Мы на Авито</h1>
+            <p class="p-avito">Добро пожаловать на страницу наших услуг по ремонту двигателей! Для получения подробной информации о ремонте двигателя мы рекомендуем обратиться к нашей странице на авито.</p>
+            <a href="https://www.avito.ru/user/360b34aa035741f9aacef7ada6014a80/profile?id=4226009185&src=item&page_from=from_item_card_icon&iid=4226009185" target="_blank"><button class="btn-avito">Перейти</button></a>
+        </div>
+            <!--Galaree-->
+            <div class="slideshow-container" id="galaree">
+                <div class="mySlides fade">
+                  <img src="img/photo_2024-08-10_12-27-58.jpg" style="width:100%" class="img-sl">
+                  <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                  <img src="img/photo_2024-08-10_12-28-07.jpg" style="width:100%" class="img-sl2">
+                  <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/photo_2024-08-10_12-28-13.jpg" style="width:100%" class="img-sl3">
+                    <div class="text"></div>
+                </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+    </main>
+    <h1 class="services-h1" id="price">Ценновой лист</h1>
+    <div class="price" id="prices">
+        <div class="prices">
+            <div class="accordion-header"><p class="que">Диагностика авто</p></div>
+            <div class="accordion-content"><p class="que-con">Комплексная диагностика от 1 000 ₽ <br> Компьютерная диагностика от 1 000 ₽ <br> Диагностика двигателя от 2500 ₽</p></div>
+            <div class="accordion-header"><p class="que">Ремонт двигателя</p></div>
+            <div class="accordion-content"><p class="que-con">Замена поршневой группы от 50 000 ₽ <br> Ремонт блока цилиндра 7 000 ₽ <br> Замена бензинового двигателя от 20 000 ₽ <br> Замена прокладки клапанной крышки от 1 000 ₽ <br> Ремонт коленвала от 5 000 ₽</p></div>
+            <div class="accordion-header"><p class="que">Модели двигателей</p></div>
+            <div class="accordion-content"><p class="que-con">G4NA, G4KD, G4KE</p></div>
+        </div>
+    </div>
+    <div class="round" onclick="openSocial()">
+        <a href=""><section class="inactive telegram" id="soc"></section></a>
+        <a href="https://vk.com/tochilniy"><section class="inactive vk" id="soc"></section></a>
+        <a href=""><section class="inactive whatsapp" id="soc"></section></a>
+    </div>
+    <h1 class="h1-service">Наши Услуги</h1>
+    <div class="service-block">
+        <div class="service-div">
+            <h1 class="service-h2">Диагностика Двигателя</h1>
+            <p class="service-p">Современные автомобили оснащены сложными системами управления двигателем, которые требуют регулярного обслуживания и проверки. В нашем автосервисе мы предлагаем профессиональную диагностику двигателя, направленную на выявление и устранение любых неисправностей.</p>
+            <a href="#"><button class="btn-service">Связаться</button></a>
+        </div>
+        <div class="service-div-2">
+            <h1 class="service-h2">Компьютерная Диагностика</h1>
+            <p class="service-p">В нашем автосервисе мы предлагаем высококачественную компьютерную диагностику двигателя, которая позволяет быстро и точно выявить проблемы в работе вашего автомобиля. С помощью современного оборудования и специализированного программного обеспечения мы считываем коды ошибок и анализируем параметры работы двигателя в реальном времени. Это помогает не только определить причину неисправностей, но и предотвратить возможные поломки в будущем. </p>
+            <a href="#"><button class="btn-service">Связаться</button></a>
+        </div>
+        <div class="service-div-3">
+            <h1 class="service-h2">Покупка Двигателя</h1>
+            <p class="service-p">У вас есть двигатель, который вы готовы продать? Мы занимаемся покупкой двигателей, также у нас есть акции, приведи друга и получишь проценты от продажи! Ждем вас в нашей мастерской с вашими проблемами, которые мы постараемся исправить.</p>
+            <a href="#"><button class="btn-service">Связаться</button></a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="col-wrapper">
+                <img src="img/free-icon-placeholder-filled-point-58960.png" alt="" class="img-footer">
+                <h2 class="h2-footer">Мы на карте</h2>
+                <a href="https://yandex.ru/maps/-/CDgHYQLw" class="footer-p" target="_blank">Показать</a>
+            </div>
+            <div class="hr-footer">
+
+            </div>
+            <div class="col-wrapper">
+                <img src="img/free-icon-mail-646094.png" alt="" class="img-footer">
+                <h2 class="h2-footer">Наша почта</h2>
+                <p class="footer-p">lexus-sova@yandex.ru</p>
+            </div>
+            <div class="hr-footer">
+
+            </div>
+            <div class="col-wrapper">
+                <img src="img/free-icon-phone-call-126509.png" alt="" class="img-footer">
+                <h2 class="h2-footer">Наш телефон</h2>
+                <p class="footer-p">+7927192-32-30</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function openSocial(){
+        let divs = document.getElementsByTagName("section");
+        for(let i = 0; i < divs.length; i++) {
+        divs[i].classList.toggle("inactive");
+        }
+    }
+
+
+
+    var accordionHeaders = document.querySelectorAll('.accordion-header');
+    var accordionContents = document.querySelectorAll('.accordion-content');
+
+  accordionHeaders.forEach(function (header) {
+    header.addEventListener('click', function () {
+      var content = this.nextElementSibling;
+      this.classList.toggle('active');
+      content.classList.toggle('show');
+      if (content.classList.contains('show')) {
+        content.style.maxHeight = content.scrollHeight + '20px';
+      } else {
+        content.style.maxHeight = null;
+      }
+    });
+  });
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+
+function openNav() {
+    document.getElementById("myNav").style.width = "100%"
+    document.getElementById("myNav").style.display = "block";lay = "block";
+  }
+  
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+</html>
